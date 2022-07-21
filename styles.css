@@ -26,6 +26,7 @@ body {
    color: #212121;
    text-align: center;
    box-shadow: 0 0 5px rgba(0, 0, 0, 0.098);
+   border-radius: 7px;
 }
 
 .card * {

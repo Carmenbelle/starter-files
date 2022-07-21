@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #212121;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+   display: inline-block;
+   overflow: hidden;
+   min-width: 250px;
+   max-width: 310px;
+   width: 100%;
+   background: #fff;
+   color: #212121;
+   text-align: center;
+   box-shadow: 0 0 5px rgba(0, 0, 0, 0.098);
+}
+
+.card * {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.card .profile-image {
+    max-width: 100%;
+    /* vertical-align: top; */
+    padding: 10% 15% 0;
+}
+.profile-image img {
+    max-width: 40%;
+    border-radius: 50%;
+}
+.card figcaption {
+    padding: 5% 10% 15%;
+}
+.card figcaption p {
+    margin-bottom: 25px;
+   line-height: 2rem;
+}
+
+.card {
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 3px 0;
+}
+
+.card h5 {
+    font-weight: 100;
+    font-size: 13px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: rgb(21, 110, 110);
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+}
+.card h5:hover{
+    color: rgb(4, 133, 133);
+}
+
+.card .icons i {
+    color: rgb(12, 81, 81);
+    display: inline-block;
+    font-size: 1.5rem;
+    margin-right: 15px;
+}
+
+.card .icons i:hover {
+    color: rgb(59, 152, 154);
+}
+.card .icons i a{
+   text-decoration: none; 
+} 
